@@ -1,0 +1,124 @@
+.
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: deepskyblue;
+    padding: 0 10px;
+}
+.containeer
+{
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    margin: 20px auto;
+    position: relative;
+    padding: 30px;
+    box-shadow: 6px 6px 6px rgb(0, 0, 0 , 0.5);
+   
+}
+.containeer .title
+{
+   margin-bottom: 25px;
+   font-size: 24px;
+   font-weight: 700px;
+  text-align: center;
+}
+.containeer .form
+{
+    width: 100%;
+}
+.containeer .form .input_field
+{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.containeer .form .input_field label
+{
+    width: 300px;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+.containeer .form .input_field .otp
+{
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 10px;
+    font-size: 30px;
+    text-align: center;
+    
+   
+}
+.containeer .form .input_field .input
+{
+    width: 100%;
+    border: 2px solid black;
+    outline: none;
+    padding: 8px 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0 , 0.5);
+    transition: all 0.5s ease;
+
+}
+.containeer .form .input_field .selectbox
+{
+    
+    position: relative;
+    width: 105%;
+    height: 100%;
+    outline: none;
+    padding:  8px 10px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 3px ;
+    box-shadow: 6px 6px 6px rgb(0, 0, 0 , 0.5);
+
+}
+.containeer .form .input_field .btn
+{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 20px; 
+    border: 0;
+    background-color: deepskyblue;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    outline: none;
+}
+.containeer .form .input_field:last-child
+{
+    margin-bottom: 0;
+
+}
+.containeer .form .input_field .btn:hover
+{
+    background:skyblue;
+}
+
+@media (max-width: 420px)
+{
+    .containeer .form .input_field
+    {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+}
+.containeer .form .input_field label
+{
+    margin-bottom: 5px;
+    
+}
+.containeer2 .form2 .input_field2 label
+  
+{
+    width: 500px;
+    margin-right: 10px;
+    font-size: 40px;
+}
